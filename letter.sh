@@ -26,12 +26,16 @@ sleep 1
 move_turtle /turtle1/cmd_vel 2 0 0
 sleep 1
 
-# Move turtle2 to draw the letter 'C'
+# Move turtle2 to draw the letter 'S'
 move_turtle /turtle2/cmd_vel 2 0 0
 sleep 1
 move_turtle /turtle2/cmd_vel 0 -2 0
 sleep 1
 move_turtle /turtle2/cmd_vel -2 0 0
 sleep 1
-move_turtle /turtle2/cmd_vel 0 0 0
+move_turtle /turtle2/cmd_vel -2 0 0
+sleep 1
+move_turtle /turtle2/cmd_vel 0 -2 0
+sleep 1
+move_turtle /turtle2/cmd_vel 2 0 0
 sleep 1
